@@ -36,9 +36,9 @@
 
 ### 📋 Prerequisites
 
-- Java 17+ (Java 20 recommended)
+- Java 17 (recommended)
 - Maven
-- MySQL Server
+- MySQL
 - Git
 
 ### ⚙️ Installation
