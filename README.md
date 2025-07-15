@@ -1,16 +1,18 @@
-<h1 align="center">📦 INVENTORYPRO</h1>
-<p align="center"><em>Transform Inventory Management, Empower Business Growth</em></p>
+<h1 align="center">📦 Inventory PRO</h1>
+<p align="center"><em> Featurefull Inventory Management for complex businesses </em></p>
 
 <p align="center">
   <img src="https://img.shields.io/github/last-commit/VishalKmk/InventoryPro" alt="last commit">
   <img src="https://img.shields.io/github/languages/top/VishalKmk/InventoryPro" alt="Top language">
   <img src="https://img.shields.io/github/languages/count/VishalKmk/InventoryPro" alt="Languages used">
+  <img src="https://img.shields.io/github/license/VishalKmk/InventoryPro" alt="License: MIT">
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Built%20With-Java-blue.svg" />
   <img src="https://img.shields.io/badge/Framework-SpringBoot-green.svg" />
   <img src="https://img.shields.io/badge/Database-MySQL-lightgrey.svg" />
+  <img src="https://img.shields.io/badge/License-MIT-yellow.svg" />
 </p>
 
 ---
