@@ -24,12 +24,6 @@
   - [📋 Prerequisites](#-prerequisites)
   - [⚙️ Installation](#%EF%B8%8F-installation)
   - [🔧 Configuration](#-configuration)
-- [💡 Usage](#-usage)
-- [🧪 Testing](#-testing)
-- [🛡️ Security](#-security)
-- [📂 Project Structure](#-project-structure)
-- [🤝 Contributing](#-contributing)
-- [📃 License](#-license)
 
 ---
 
