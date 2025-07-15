@@ -12,7 +12,6 @@
   <img src="https://img.shields.io/badge/Built%20With-Java-blue.svg" />
   <img src="https://img.shields.io/badge/Framework-SpringBoot-green.svg" />
   <img src="https://img.shields.io/badge/Database-MySQL-lightgrey.svg" />
-  <img src="https://img.shields.io/badge/License-MIT-yellow.svg" />
 </p>
 
 ---
