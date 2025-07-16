@@ -1,8 +1,8 @@
 <h1 align="center">📦 Inventory PRO</h1>
-<p align="center"><em> Featurefull Inventory Management for complex businesses </em></p>
+<p align="center"><em>Feature-rich Inventory Management System for modern businesses</em></p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/last-commit/VishalKmk/InventoryPro" alt="last commit">
+  <img src="https://img.shields.io/github/last-commit/VishalKmk/InventoryPro" alt="Last commit">
   <img src="https://img.shields.io/github/languages/top/VishalKmk/InventoryPro" alt="Top language">
   <img src="https://img.shields.io/github/languages/count/VishalKmk/InventoryPro" alt="Languages used">
   <img src="https://img.shields.io/github/license/VishalKmk/InventoryPro" alt="License: MIT">
@@ -14,21 +14,26 @@
   <img src="https://img.shields.io/badge/Database-MySQL-lightgrey.svg" />
 </p>
 
----
-
-## 📚 Table of Contents
-
-- [📝 Overview](#-overview)
-- [🚀 Getting Started](#-getting-started)
-  - [📋 Prerequisites](#-prerequisites)
-  - [⚙️ Installation](#%EF%B8%8F-installation)
-  - [🔧 Configuration](#-configuration)
+<p align="center"><strong>🚧 This project is in active development. Frontend integration is coming soon! 🚀</strong></p>
 
 ---
 
 ## 📝 Overview
 
-**InventoryPro** is a powerful backend system designed to simplify and scale inventory management for growing businesses. It provides robust APIs, secure authentication, and user-role-based access control using Spring Boot.
+**InventoryPro** is a secure, scalable, and modular backend system built using Spring Boot. It's designed to handle complex inventory operations with ease—offering APIs for managing users, inventory, roles, activity logs, and authentication.
+
+---
+
+## 📦 Features
+
+- ✅ User Registration & Login with JWT Authentication
+- ✅ Role-Based Access Control (Admin, Manager, Viewer, etc.)
+- ✅ Inventory CRUD operations
+- ✅ Secure password encryption with Spring Security
+- ✅ Global exception handling
+- ✅ Activity logging for traceability
+- ✅ CORS Configuration
+- ❌ UI – *Coming soon...*
 
 ---
 
@@ -36,7 +41,7 @@
 
 ### 📋 Prerequisites
 
-- Java 17 (recommended)
+- Java 17 or above
 - Maven
 - MySQL
 - Git
