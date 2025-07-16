@@ -53,9 +53,7 @@ git clone https://github.com/VishalKmk/InventoryPro.git
 cd InventoryPro
 ```
 
-3. **Run the application**:
-
-#### ▶️ On Windows:
+#### Run Application
 ```bash
 ./mvnw.cmd spring-boot:run
 ```
