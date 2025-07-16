@@ -27,7 +27,7 @@
 ## 📦 Features
 
 - ✅ User Registration & Login with JWT Authentication
-- ✅ Role-Based Access Control (Admin, Manager, Viewer, etc.)
+- ✅ Role-Based Access Control (Admin, User/Viewer)
 - ✅ Inventory CRUD operations
 - ✅ Secure password encryption with Spring Security
 - ✅ Global exception handling
