@@ -1,6 +1,7 @@
 package com.app.InventoryPro.controller;
 
 import com.app.InventoryPro.dto.LoginRequest;
+import com.app.InventoryPro.dto.LoginResponse;
 import com.app.InventoryPro.dto.SignUpRequest;
 import com.app.InventoryPro.model.User;
 import com.app.InventoryPro.service.AuthService;
@@ -24,7 +25,7 @@ public class AuthController {
     }
 
     @PostMapping("/login")
-    public ResponseEntity<User> login(@RequestBody LoginRequest loginRequest) {
+    public ResponseEntity<LoginResponse> login(@RequestBody LoginRequest loginRequest) {
         return ResponseEntity.ok(authService.login(loginRequest));
     }
 }

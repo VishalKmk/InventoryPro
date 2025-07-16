@@ -1,5 +1,6 @@
 package com.app.InventoryPro.controller;
 
+import com.app.InventoryPro.dto.DashboardSummaryDto;
 import com.app.InventoryPro.model.InventoryItem;
 import com.app.InventoryPro.service.InventoryService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -34,7 +35,8 @@ public class InventoryController {
 
     @PutMapping("/{itemId}")
     @PreAuthorize("hasRole('ADMIN')")
-    public ResponseEntity<InventoryItem> updateInventoryItem(@PathVariable Long itemId, @RequestBody InventoryItem inventoryItem) {
+    public ResponseEntity<InventoryItem> updateInventoryItem(@PathVariable Long itemId,
+            @RequestBody InventoryItem inventoryItem) {
         return ResponseEntity.ok(inventoryService.updateInventoryItem(itemId, inventoryItem));
     }
 
@@ -43,5 +45,10 @@ public class InventoryController {
     public ResponseEntity<Void> deleteInventoryItem(@PathVariable Long itemId) {
         inventoryService.deleteInventoryItem(itemId);
         return ResponseEntity.ok().build();
+    }
+
+    @GetMapping("/summary")
+    public ResponseEntity<DashboardSummaryDto> getDashboardSummary() {
+        return ResponseEntity.ok(inventoryService.getDashboardSummary());
     }
 }

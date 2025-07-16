@@ -1,12 +1,15 @@
 package com.app.InventoryPro.dto;
 
-import jakarta.validation.constraints.NotBlank;
+import lombok.Builder;
 import lombok.Data;
 
 @Data
+@Builder
 public class LoginResponse {
-    @NotBlank
-    private String username;
-    @NotBlank
-    private String password;
+    private String jwt;
+    private Long id;
+    private String email;
+    private String name;
+    private String role;
 }
+
