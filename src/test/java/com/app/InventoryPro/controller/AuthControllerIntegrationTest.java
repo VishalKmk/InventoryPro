@@ -29,8 +29,7 @@ public class AuthControllerIntegrationTest {
         request.setUsername("testuser");
         request.setPassword("testpass");
         request.setEmail("testuser@example.com");
-        request.setRole(Role.ROLE_USER); // ✅ Ensure this matches enum or accepted roles
-
+        request.setRole(Role.ROLE_USER);
         String json = objectMapper.writeValueAsString(request);
 
         mockMvc.perform(post("/api/auth/signup")
