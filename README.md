@@ -51,3 +51,12 @@
 ```bash
 git clone https://github.com/VishalKmk/InventoryPro.git
 cd InventoryPro
+```
+
+3. **Run the application**:
+
+#### ▶️ On Windows:
+```bash
+./mvnw.cmd spring-boot:run
+```
+
